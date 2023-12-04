@@ -56,8 +56,11 @@ This project aims to simulate and analyze cyberattack scenarios in a controlled 
 # With LimaCharlie I took this a step further by automating a response in the EDR.
 ## First, I used my Sliver C2 framework to shell into the Windows 11 VM and then attempted to delete shadows.
 📝Adversaries delete shadow copies to prevent data recovery after an attack, making it harder to restore encrypted or compromised files and increasing the efficacy of ransomware. 📝
+
 ![trying to delete shadows](https://github.com/Malikj10/SOC-EDR-homelab/blob/9776066c020a8761a70b89d13c2e5fbf83f54f96/SOC-EDR-homelab-Screenshot/20%20shell%20into%20the%20system%20with%20malware%20and%20delete%20shadows.png)
+
 ## Next we can see in the images provided that the default SIGMA rules installed into the Limacharlie detected this; now I will use this event to build my own response rule and deploy it.
+
 ![default sigma rules picking up](https://github.com/Malikj10/SOC-EDR-homelab/blob/9776066c020a8761a70b89d13c2e5fbf83f54f96/SOC-EDR-homelab-Screenshot/21%20default%20sigma%20rules%20of%20EDR%20picked%20up%20on%20this.png)
 ![building a rule to block this action](https://github.com/Malikj10/SOC-EDR-homelab/blob/9776066c020a8761a70b89d13c2e5fbf83f54f96/SOC-EDR-homelab-Screenshot/22%20build%20our%20own%20rule%20to%20block%20this%20action.png)
 
