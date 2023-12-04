@@ -1,7 +1,7 @@
 # SOC-EDR-Homelab
 ## Configuring an Endpoint Detection & Response system for a Client Running Windows 11 (plus more!)
 
-This project aims to simulate and analyze cyberattack scenarios in a controlled environment, using tools like Lima Charlie and Sliver to understand attack patterns, develop custom detection rules, and enhance incident response capabilities.
+This project aims to simulate and analyze cyberattack scenarios in a controlled environment, using tools like Lima Charlie and Sliver to understand attack patterns, develop custom detection rules, and enhance incident response capabilities. Inspired by blog post by [Eric Capuano](https://substack.com/@ecapuano)
 
 ## First, for the simulation, I used a Windows 11 VM and an Ubuntu server VM with VMware workstation pro
 📝This is a safe and controlled way to simulate real-world environments and cyber attack scenarios. Using virtual machines (VMs) ensures that any malicious activity is contained and doesn’t affect your actual operating system 📝
